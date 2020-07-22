@@ -1,7 +1,12 @@
 # Dius Shopping
 
-## ASSUMPTIION
+## ASSUMPTION
 - products data loaded
+
+## FILES
+- app.py is main file, which contains Checkout, and PricingRule classes
+- app.py is not runnable, use pytest
+- test_app.py and test_rule_parsers are 2 test files
 
 ## APPROACH
 - A parser, to parse each line into a function, which will accept a shopping cart and matched product list, and return a match object
